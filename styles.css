@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+body {
+    background-color: rgb(16, 20, 31);
+}
+
+#first {
+    height: 1100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 5px;
+    padding: 0px 0px 0px 20px;
+    /* background-color: red; */
+}
+
+#fchild1 {
+    height: 1050px;
+    width: 5%;
+    margin-top: 20px;
+    background-color: rgb(22, 29, 47);
+    border-radius: 10px;
+    box-shadow: 0px 0px 0.9px 0.9px gainsboro;
+    ;
+}
+
+#menu {
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#sub {
+
+    height: 300px;
+    width: 70%;
+    margin-top: 20px;
+    color: white;
+    /* background-color: #fff; */
+}
+
+#st a img {
+    color: aqua;
+
+}
+
+#mlogo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 640px;
+}
+
+#logo {
+    width: 35px;
+    height: 35px;
+    border-radius: 80px;
+    background-color: #fff;
+    opacity: 0.5;
+
+}
+
+#logo:hover {
+    opacity: 0.9;
+}
+
+#fchild2 {
+    width: 97%;
+    height: 1100px;
+    /* background-color: blue; */
+}
+
+#search {
+    padding: 22px 50px 18px 50px;
+    border-radius: 10px;
+    width: 93%;
+    height: 50px;
+    margin-left: 1%;
+    margin-top: 15px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    background: none;
+    font-weight: 500;
+    box-shadow: 0px 0px 0.9px 0.9px gainsboro;;
+}
+
+input:focus {
+    color: white;
+    font-weight: bold;
+}
+
+#f2c {
+    width: 100%;
+    height: 220px;
+    margin-top: 20px;
+}
+
+#f2cc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 180px;
+    gap: 20px;
+    padding: 0px 10px;
+}
+
+.imgfar {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+
+h1 {
+    color: gray;
+    margin-left: 13px;
+    font-size: 20px;
+}
+
+input::placeholder {
+    font-size: 18px;
+    color: gray;
+    font-weight: bold;
+}
+
+.fchild0 {
+    width: 32%;
+    height: 160px;
+    padding-right: 5px;
+    border-radius: 10px;
+    position: relative;
+    opacity: 0.5;
+    box-shadow: 0px 0px 0.9px 0.9px gainsboro;
+    ;
+}
+
+.fchild0:hover {
+    opacity: 0.9;
+}
+
+#arvind {
+    height: 800px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 3px;
+    /* background-color:black; */
+}
+
+.arvindv {
+    height: 140px;
+    width: 22%;
+    border-radius: 5px;
+    position: relative;
+    opacity: 0.5;
+
+    box-shadow: 0px 0px 0.9px 0.9px gainsboro;
+    ;
+}
+
+.arvindv:hover {
+    opacity: 0.9;
+}
+
+.cart {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+#fchild2 .fa {
+    font-size: 20px;
+    color: rgb(144, 138, 138);
+    position: relative;
+    right: 92%;
+}
+
+.icon {
+    width: 100%;
+    /* line-height:0px ; */
+    border-radius: 6px;
+    opacity: 0.8;
+}
+
+#st {
+    width: 100%;
+}
+
+#sv {
+    width: 70%;
+    line-height: 60px;
+    margin: 5px;
+}
+
+#st:hover {
+
+    opacity: 0.5;
+
+}
+
+#sv a:hover {
+    opacity: 0.5;
+
+}
+
+h2 {
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 10px;
+}
+
+span {
+    line-height: 13px;
+    margin-left: 13px;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+
+
+}
+
+.conc {
+    /* background-color: #fff; */
+    bottom: 10px;
+    z-index: 1;
+    color: red;
+    position: absolute;
+}
